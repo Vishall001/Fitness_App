@@ -1,10 +1,10 @@
-
+import Navbar from "@/component/navbar"
 
 function App() {
  
   return (
-    <div className="App">
-       App
+    <div className="bg-gray-20 ">
+    <Navbar/>
     </div>
   )
 }
