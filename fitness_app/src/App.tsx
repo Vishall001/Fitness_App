@@ -2,6 +2,8 @@ import Navbar from "@/component/navbar"
 import Home from "@/component/home"
 import Benefits from "@/component/benefits"
 import OurClasses from "@/component/ourClasses"
+import Footer from "@/component/footer"
+
 import ContectUs from "@/component/contectUs"
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types"
@@ -31,6 +33,7 @@ function App() {
     <Benefits setSelectedPage={setSelectedPage}/>
   <OurClasses setSelectedPage={setSelectedPage}/>
   <ContectUs setSelectedPage={setSelectedPage}/>
+  <Footer/>
 
     </div>
   )
