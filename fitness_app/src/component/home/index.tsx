@@ -10,10 +10,10 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { motion } from 'framer-motion'
 
 type Props={
-    setSelectedPage: (value:SelectedPage)=>void
+    setSelectedPage:(value:SelectedPage)=>void
 }
 
-const index = (setSelectedPage:Props) => {
+const index = ({setSelectedPage}:Props) => {
     const isAboveMediumScreens =useMediaQuery("(min-width:1060px)")
   return (
    <section id='home' className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'>
