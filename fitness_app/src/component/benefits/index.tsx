@@ -37,7 +37,7 @@ const benefits: Array<BenefitType> = [
 type Props={
   setSelectedPage :(value:SelectedPage) =>void
 }
-const Benefits = (setSelectedPage:Props) => {
+const Benefits = ({setSelectedPage}:Props) => {
   return (
     <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
         <motion.div 
